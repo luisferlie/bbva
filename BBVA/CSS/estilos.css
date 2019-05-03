@@ -1,0 +1,315 @@
+/* reset */
+
+reset */ html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+simg,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* formato TEXTOS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    text-decoration: none;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    height: 250px;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+j h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/*******FORMATO HIPERVINCULOS*******/
+
+
+/* main a:link,a:visited {
+    color:darkgreen;
+    font-weight:bold; ; */
+
+
+}
+main a:hover,
+a:active {
+    color: limegreen;
+    text-decoration: underline;
+    footer a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:link,
+a:visited {
+    color: white;
+    background-color: #072146n;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 2.4em;
+}
+nav a.superior {
+    font-weight: 200;
+    padding: 40px;
+    font-variant: small-caps;
+}
+nav a.principal {
+    padding: 50px;
+    color: #000;
+}
+nav a:hover,
+a:active {
+    color: white;
+    background-color: darkseagreen;
+    padding: 10px;
+    line-height: 2.4em;
+    /*    text-decoration: underline;*/
+}
+
+/* +++++++++++++++++++iconos+++++++++++++++++++ */
+
+/* links y cabecera*/
+<
+/* estructura */
+header {
+    background-color: #072146;
+    height: 150px;
+    background-image: url("imagenes/bielsa.jpg")
+}
+#head {
+    background-color: #072146;
+    width: 1300px;
+    margin: auto;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.superior #header {
+    display: inline;
+}
+.navegacion {
+    display: block;
+    clear: both;
+    background-color: #004481;
+    text-align: center;
+    font-weight: 200;
+}
+.nav {
+    display: inline-block;
+    min-width: 170px;
+    font-variant: small-caps;
+}
+
+/* ++++++++++++++imagen principal++++++++ */
+#img-cabecera {
+    width: 100%;
+    height: 200px;
+    background-image: url("imagenes/bielsa.jpg");
+    background-color: #cccccc;
+}
+
+/* ****************formulario*************** */
+form {
+    width: 150px;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    opacity: 0.5;
+    background-image: url("imagenes/bielsa.jpg");
+}
+.form-entrada {
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    background-color: green;
+    background-color: green;
+}
+fieldset {
+    padding: 30px;
+    color: red;
+}
+.dp {
+    font-weight: bold;
+}
+input[type=search] {
+    border: 1px dotted #999;
+    border: 1px dotted #999;
+    border: 1px dotted #999;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+form.text {
+    float: left;
+}
+input[type=search] {
+    border: 1px dotted #999;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+form.text {
+    float: left;
+}
